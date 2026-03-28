@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# TP React - Application Multi-Composants
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce projet est une application développée avec **React.js** dans le cadre d’un TP.  
+Il illustre l’utilisation des **composants**, la navigation simple et la gestion d’interfaces utilisateur.
 
-In the project directory, you can run:
+L’application contient plusieurs fonctionnalités comme :
+- Page d’accueil
+- Page À propos
+- Formulaire de connexion
+- Lecteur audio
+- Liste de tâches
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Structure du projet
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+tp3/
+│── src/
+│   ├── Accueil.js
+│   ├── Apropos.js
+│   ├── Connexion.js
+│   ├── LecteurAudio.js
+│   ├── ListeTaches.js
+│   ├── Logo.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   ├── logo.png
+│   ├── App.test.js
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+```
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### 1. Cloner le projet
+```bash
+git clone <url-du-repo>
+cd tp3
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Installer les dépendances
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Lancer l’application
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+L’application sera accessible sur :
+```
+http://localhost:3000
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Composants principaux
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###  Accueil
+- Affiche la page principale de l'application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### À propos
+- Donne des informations sur l'application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Connexion
+- Formulaire simple de connexion utilisateur.
 
-## Learn More
+### Lecteur Audio
+- Permet de lire un fichier audio.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Liste des tâches
+- Gestion simple d’une liste (ajout / affichage).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Technologies utilisées
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React.js
+- JavaScript (ES6)
+- HTML5 / CSS3
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Scripts disponibles
 
-### Making a Progressive Web App
+```bash
+npm start      # Lancer l'application
+npm build      # Construire le projet
+npm test       # Lancer les tests
+npm eject      # Éjecter la configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Objectifs pédagogiques
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Comprendre l’architecture d’une application React
+- Manipuler les composants
+- Gérer les événements
+- Structurer un projet front-end
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Aperçu
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Auteur
+
+Ait Hmad Oussama
+
+---
